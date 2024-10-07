@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuvem de Palavras - Governança de TI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #8b999c;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2a72d4;
+            margin-bottom: 20px;
+        }
+
+        .word-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .word-cloud a {
+            text-decoration: none;
+            color: #2a72d4;
+            padding: 10px 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .word-cloud a:hover {
+            color: #fff;
+            background-color: #ff6a00;
+            transform: translateY(-5px);
+        }
+
+        /* Tamanhos diferentes para as palavras */
+        .small { font-size: 1em; }
+        .medium { font-size: 1.2em; }
+        .large { font-size: 1.5em; }
+        .xlarge { font-size: 1.8em; }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .word-cloud a {
+                padding: 8px 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .word-cloud {
+                gap: 10px;
+            }
+
+            .word-cloud a {
+                font-size: 0.9em;
+                padding: 6px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Nuvem de Palavras - Governança de TI</h1>
+        <div class="word-cloud">
+            <a href="https://pt.wikipedia.org/wiki/Governança_de_TI" target="_blank" class="xlarge">Governança de TI</a>
+            <a href="https://pt.wikipedia.org/wiki/COBIT" target="_blank" class="large">COBIT</a>
+            <a href="https://pt.wikipedia.org/wiki/ITIL" target="_blank" class="medium">ITIL</a>
+            <a href="https://pt.wikipedia.org/wiki/Segurança_da_informação" target="_blank" class="large">Segurança da Informação</a>
+            <a href="https://pt.wikipedia.org/wiki/Compliance" target="_blank" class="medium">Compliance</a>
+            <a href="https://pt.wikipedia.org/wiki/Gerenciamento_de_risco" target="_blank" class="small">Gestão de Riscos</a>
+            <a href="https://pt.wikipedia.org/wiki/Service_Level_Agreement" target="_blank" class="medium">SLA</a>
+            <a href="https://pt.wikipedia.org/wiki/Auditoria_de_TI" target="_blank" class="medium">Auditoria de TI</a>
+            <a href="https://pt.wikipedia.org/wiki/Indicador-chave_de_desempenho" target="_blank" class="small">KPI</a>
+            <a href="https://pt.wikipedia.org/wiki/Estratégia_de_tecnologia_da_informação" target="_blank" class="large">Estratégia de TI</a>
+            <a href="https://pt.wikipedia.org/wiki/Arquitetura_corporativa" target="_blank" class="medium">Arquitetura Corporativa</a>
+            <a href="https://pt.wikipedia.org/wiki/Big_data" target="_blank" class="small">Big Data</a>
+            <a href="https://pt.wikipedia.org/wiki/Computação_em_nuvem" target="_blank" class="large">Cloud Computing</a>
+            <a href="https://pt.wikipedia.org/wiki/Governança_de_dados" target="_blank" class="small">Data Governance</a>
+            <a href="https://pt.wikipedia.org/wiki/DevOps" target="_blank" class="medium">DevOps</a>
+            <a href="https://pt.wikipedia.org/wiki/Plano_de_recuperação_de_desastres" target="_blank" class="medium">Disaster Recovery</a>
+            <a href="https://pt.wikipedia.org/wiki/Regulamento_Geral_de_Proteção_de_Dados" target="_blank" class="large">GDPR</a>
+            <a href="https://pt.wikipedia.org/wiki/Gerenciamento_de_incidentes" target="_blank" class="small">Incident Management</a>
+            <a href="https://pt.wikipedia.org/wiki/Terceirização" target="_blank" class="small">Outsourcing</a>
+            <a href="https://pt.wikipedia.org/wiki/Privacidade_digital" target="_blank" class="medium">Privacidade de Dados</a>
+            <a href="https://pt.wikipedia.org/wiki/Qualidade_de_software" target="_blank" class="small">Qualidade de Software</a>
+            <a href="https://pt.wikipedia.org/wiki/Gerenciamento_de_projetos" target="_blank" class="medium">Gestão de Projetos</a>
+            <a href="https://pt.wikipedia.org/wiki/Monitoramento" target="_blank" class="small">Monitoramento</a>
+            <a href="https://pt.wikipedia.org/wiki/Responsabilidade_social_corporativa" target="_blank" class="small">Responsabilidade Corporativa</a>
+            <a href="https://pt.wikipedia.org/wiki/Transformação_digital" target="_blank" class="medium">Transformação Digital</a>
+            <a href="https://pt.wikipedia.org/wiki/Validação" target="_blank" class="small">Validação</a>
+            <a href="https://pt.wikipedia.org/wiki/Automação" target="_blank" class="small">Automação</a>
+            <a href="https://pt.wikipedia.org/wiki/Melhoria_contínua" target="_blank" class="medium">Melhoria Contínua</a>
+            <a href="https://pt.wikipedia.org/wiki/Gerenciamento_de_processos_de_negócio" target="_blank" class="medium">Processos de Negócio</a>
+            <a href="https://pt.wikipedia.org/wiki/Tecnologia_da_informação_sustentável" target="_blank" class="medium">Sustentabilidade de TI</a>
+        </div>
+    </div>
+
+</body>
+</html>
